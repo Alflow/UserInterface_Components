@@ -16,10 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
     let left = buttonRect.left;
     let top = buttonRect.bottom;
 
-    if (left + menu.offsetWidth > window.innerWidth) {
-      left = window.innerWidth - menu.offsetWidth - 10;
-    }
-
     if (top + menu.offsetHeight > window.innerHeight) {
       top = buttonRect.top - menu.offsetHeight;
     }
